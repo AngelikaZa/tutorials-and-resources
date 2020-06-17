@@ -13,6 +13,6 @@ deploy:
   local-dir: site
   cleanup: true
   keep-history: true
-  github-token: $github-token
+  github-token: $token
   on:
     branch: master
